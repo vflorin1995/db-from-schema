@@ -71,6 +71,12 @@ Run the code in the console/database.
 - GitHub: [@vflorin1995](https://github.com/vflorin1995)
 - LinkedIn: [@florin--voicu](https://linkedin.com/in/florin--voicu)
 
+👤 **Ndikumana Isaie**
+
+- GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
+- Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
+- LinkedIn: [Ndikumana Isaie](https://www.linkedin.com/in/ndikumanaisaie/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
