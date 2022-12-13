@@ -27,9 +27,8 @@ CREATE TABLE treatments (
 
 CREATE TABLE medical_histories_treatment (
     medical_histories_id int REFERENCES medical_histories (id),
-    treatment_id int REFERENCES treatments (id),
-    date timestamp,
-    PRIMARY KEY(medical_histories_id, treatment_id, date)
+    treatment_id int REFERENCES treatments (id)
+    PRIMARY KEY(medical_histories_id, treatment_id)
 );
 
 CREATE TABLE invoice_items (
@@ -41,3 +40,9 @@ CREATE TABLE invoice_items (
     treatment_id int REFERENCES treatments (id)
 );
 
+CREATE INDEX medical_patient_asc ON medical_histories(patient_id);
+CREATE INDEX invoices_medical_asc ON invoices(medical_history_id);
+CREATE INDEX medical_histories_asc ON medical_histories_treatment(medical_histories_id);
+CREATE INDEX medical_tratment_asc ON medical_histories_treatment(treatment_id);
+CREATE INDEX invoice_id_asc ON invoice_items(invoice_id);
+CREATE INDEX invoice_treatment_asc ON invoice_items(treatment_id);
